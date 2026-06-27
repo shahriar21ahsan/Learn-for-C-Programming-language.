@@ -24,5 +24,8 @@ int main(){
     result = num1 / num2;
     printf("Result of Div: %d / %d = %d\n", num1,num2,result);
 
+    result = num1 % num2;
+    printf("Result of Mod: %d %% %d = %d\n", num1, num2, result);
+
     return 0;
 }
